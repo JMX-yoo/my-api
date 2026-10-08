@@ -1,0 +1,19 @@
+{
+  "name": "my-api",
+  "version": "1.0.0",
+  "description": "后端 API 服务，可直接部署到 Render",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "license": "MIT",
+  "private": true
+}
